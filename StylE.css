@@ -1,6 +1,6 @@
 body {
-word-break: break-all;
-box-sizing: border-box;
+ word-break: break-all;
+ box-sizing: border-box;
 }
 
 body,div,ul,li,h2,a,img {
@@ -24,6 +24,9 @@ a {
 .Header {
  padding-top: 20px;     
  padding-bottom: 20px;
+}
+ 
+.Header {
  position: absolute;    
  width: 100%;
 }
@@ -118,7 +121,7 @@ a {
 @media screen and (max-width: 1080px){
 .HeaderNavHamburger__line:first-child {
  top: 0; 
- }
+}
 }
 
 @media screen and (max-width: 1080px){
